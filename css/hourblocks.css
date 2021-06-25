@@ -1,0 +1,23 @@
+.blocks
+{
+margin: 0 auto;
+margin-left: auto;
+margin-right: auto;
+text-align:center;
+}
+
+input {
+  width: 1200px;
+  height: 30px;
+}
+
+p {
+  text-align: center;
+}
+
+@media screen and (max-width:1000px){
+  input {
+    width: 600px;
+    height: 30px;
+  }
+	}

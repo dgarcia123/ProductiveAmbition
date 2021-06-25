@@ -1,0 +1,39 @@
+#watch{
+  font-size: 150px;
+
+}
+
+#watchArea{
+  text-align: center;
+}
+
+
+.start{
+  all: unset;
+  border: 2px solid black;
+  font-size: 20px;
+  padding: 10px;
+}
+
+.stop{
+  all: unset;
+  border: 2px solid black;
+  font-size: 20px;
+  padding: 10px;
+}
+
+.reset{
+  all: unset;
+  border: 2px solid black;
+  font-size: 20px;
+  padding: 10px;
+}
+
+footer {
+/*background: url('../images/footer-bg.jpg') no-repeat; */
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding-top: 553px !important;
+}

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<!-- SITE TITLE -->
+	<title>Time Budget</title>
+	<link rel="icon" type="image/png" href="images/icon.png">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+
+	<!-- STYLESHEET CSS FILES -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/animate.min.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/nivo-lightbox.css">
+	<link rel="stylesheet" href="css/nivo_themes/default/default.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+
+	<link rel="stylesheet" href="css/timebudget.css"> <!-- timebudget css-->
+	<link rel="stylesheet" href="css/pomodoro.css">
+</head>
+<body data-spy="scroll" data-target=".navbar-collapse" data-offset="50">
+
+<!-- navigation section -->
+<section class="navbar navbar-fixed-top custom-navbar" role="navigation">
+	<div class="container">
+		<div class="navbar-header">
+			<button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+				<span class="icon icon-bar"></span>
+				<span class="icon icon-bar"></span>
+				<span class="icon icon-bar"></span>
+			</button>
+			<a href="index.html" class="navbar-brand"><span class="bold">Productive Ambition</span></a>
+		</div>
+		<div class="collapse navbar-collapse">
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="index.html">HOME</a></li>
+				<li><a href="todo.html">TO-DO</a></li>
+				<li><a href="pomodoro.html">POMODORO CLOCK</a></li>
+				<li><a href="stopwatch.html">STOP WATCH</a></li>
+				<li><a href="hourblocks.html">HOUR BLOCKS</a></li>
+				<li><a href="timebudget.html">TIME BUDGET</a></li>
+			</ul>
+		</div>
+	</div>
+</section>
+
+<!-- home section -->
+
+<section id="about">
+	<div id="myDIV" class="header">
+		<div class="col-md-12 col-sm-12 text-center">
+			<h1 class="heading bold">Time Budget</h1>
+			<h2 class="subheading">Time Budget: Perfect for managing time spending</h2>
+			<p >Envision how you want to spend your time, because what you chose to spend your time defines the type of person you are.
+Whether deciding how many hours in a day you want to spend on certain aspects of life.
+</p>
+		</div>
+
+		<div class="slidecontainer">
+		  <input type="range" min="0" max="24" value="1" class="slider" id="myRange1">
+		  <p>Academic Hours: <span id="academic"></span></p>
+		</div>
+
+		<div class="slidecontainer">
+		  <input type="range" min="0" max="24" value="8" class="slider" id="myRange2">
+		  <p>Work Hours: <span id="work"></span></p>
+		</div>
+
+		<div class="slidecontainer">
+		  <input type="range" min="0" max="24" value="1" class="slider" id="myRange3">
+		  <p>Health Hours: <span id="health"></span></p>
+		</div>
+
+		<div class="slidecontainer">
+		  <input type="range" min="0" max="24" value="8" class="slider" id="myRange7">
+		  <p>Sleep Hours: <span id="sleep"></span></p>
+		</div>
+
+		<div class="slidecontainer">
+		  <input type="range" min="0" max="24" value="3" class="slider" id="myRange4">
+		  <p>Free Time Hours: <span id="free"></span></p>
+		</div>
+
+		<div class="slidecontainer">
+		  <input type="range" min="0" max="24" value="2" class="slider" id="myRange5">
+		  <p>Social Hours: <span id="social"></span></p>
+		</div>
+
+		<div class="slidecontainer">
+		  <input type="range" min="0" max="24" value="1" class="slider" id="myRange6">
+		  <p>Other Hours: <span id="other"></span></p>
+		</div>
+
+	</div>
+
+</section>
+
+<!-- footer section -->
+<footer>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 col-sm-12">
+				<ul class="social-icon">
+					<li><a href="https://www.linkedin.com/in/dannygarcia21/" class="fa fa-linkedin wow bounceIn" data-wow-delay="0.6s"></a></li>
+					<li><a href="https://github.com/dgarcia123" class="fa fa-github wow bounceIn" data-wow-delay="0.9s"></a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</footer>
+<!--Academic Time, Work Time, Sleep Time, Free Time, Other Time. Health Time.-->
+<!-- copyright section -->
+<section id="copyright">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-8 col-sm-8 col-xs-9">
+				<p>Copyright © 2021 Productive Ambition | Stay Moving</a></p>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!-- JAVASCRIPT JS FILES -->
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/smoothscroll.js"></script>
+<script src="js/isotope.js"></script>
+<script src="js/imagesloaded.min.js"></script>
+<script src="js/nivo-lightbox.min.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/custom.js"></script>
+<!-- Time Budget JS file-->
+<script src="js/timebudget.js"></script>
+
+</body>
+</html>
